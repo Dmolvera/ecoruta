@@ -6,11 +6,42 @@
 /* Actividad 1: cabecera y hero */
 
 
+.cabecera {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.menu ul { display: flex; gap: 1.5rem; }
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /* Actividad 2: tarjetas */
 
+.tarjetas { display: flex; gap: 1.5rem; }
+
+.tarjeta {
+     display: flex;
+     flex: 1;
+     flex-direction: column;
+}
+.enlace { margin-top: auto; }
 
 /* Actividad 3: estructura y pie */
 
+.contenedor {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+}
+.principal { flex: 1; min-width: 0; }
+.lateral { flex: 0 0 260px; }
+
+.pie-columnas { display: flex; gap: 2rem; }
+.columna { flex: 1; }
 
 /* Actividad 4: galería */
 
